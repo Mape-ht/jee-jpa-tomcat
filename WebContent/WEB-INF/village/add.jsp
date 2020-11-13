@@ -4,9 +4,10 @@
 <t:layout title="Village | Home">
     <jsp:attribute name="body_area">
     <form>
-  <div class="form-row">
+    <br><br><br><br> 
+ <!-- <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
+      <label for="inputEmail4">Nom Village</label>
       <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
     </div>
     <div class="form-group col-md-6">
@@ -15,13 +16,9 @@
     </div>
   </div>
   <div class="form-group">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="form-group">
     <label for="inputAddress2">Address 2</label>
     <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
+  </div> 
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputCity">City</label>
@@ -46,16 +43,22 @@
         Check me out
       </label>
     </div>
+  </div>-->
+  <div class="form-group col-md-8">
+    <label for="inputVillage">Nom Village</label>
+    <input type="text" class="form-control" id="inputVillage" placeholder="Tattaguine">
   </div>
+  
   <button type="submit" class="btn btn-primary">Sign in</button>
+  <br><br><br><br><br><br>
 </form>
 <table class="table table-dark">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Id</th>
+      <!--<th scope="col">User</th>-->
+      <th scope="col">Village</th>
+      <!--<th scope="col">Abonné</th>-->
     </tr>
   </thead>
   <tbody>
